@@ -2,7 +2,7 @@
 
 Goal: every mentor leaves with the repo reading data from Box, having played a student for one week, and having run `/clinic-project-review` on the result.
 
-Before the session (facilitator): Box folder `dsi-core/clinic/2026-sample` shared with all mentors as Editor; mentors added to this repo with Write; seed roles run (`docs/seed/seed.sh a|b|c`); `docs/sample-review.md` generated.
+Before the session (facilitator): Box folder `dsi-core/clinic/2026-sample` shared with all mentors as Editor; mentors added to this repo with Write; seed roles run and a sample review generated (both kept out of this repo, in `dsi-rse/clinic-automation` under `training/`, so the review can't read them).
 
 ## 0–5 · The week
 Walk through [WEEKLY_FLOW.md](WEEKLY_FLOW.md). Point at the escalation page.
@@ -38,7 +38,7 @@ Intake answers: review window = last 7 days · roster = your two tablemates plus
 
 Read the per-student checks, especially whether each report matches the PRs and commits, then the task menu. Those are tasks you would **tell** students next week; they open the issues.
 
-If the skill is slow, read [sample-review.md](sample-review.md) together.
+If the skill is slow, the facilitator shares the pre-generated sample review on screen.
 
 ## 37–40 · Wrap
 - The skill sees GitHub only. Give it Box/Slack/meeting context at intake.

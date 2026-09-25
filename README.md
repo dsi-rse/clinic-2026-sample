@@ -6,7 +6,9 @@ issue; mentors run `/clinic-project-review` before each meeting.
 
 * How the week works: [docs/WEEKLY_FLOW.md](docs/WEEKLY_FLOW.md)
 * Mentor training session runbook: [docs/SESSION.md](docs/SESSION.md)
-* Seeded example students (for the review roster): A, B, C — tagged `[student:A]` etc. in issue titles, commits, and comments, so one person can play all three
+* Students (review roster): **Student A**, **Student B**, **Student C** — all played by the
+  facilitator from one account; their work is tagged `[student:A]`, `[student:B]`, `[student:C]`
+  in issue titles, commits, and comments
 
 Generated from [clinic-template](https://github.com/dsi-rse/clinic-template) PR #52
 (`feat/dashboard-template` at `63c6d09`) with `examples=dashboard`, `data_dir=box`.
