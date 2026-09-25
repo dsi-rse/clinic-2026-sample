@@ -1,0 +1,45 @@
+name: Weekly tasks
+description: Open this after each mentor session (due midnight that day) with the tasks your mentor assigned you.
+title: "Week <n> tasks – <your name>"
+labels: ["weekly-tasks"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Your mentor tells you your tasks in the meeting; **you** open this issue and post its link in the project Slack thread.
+        A task is only done when its pull request is merged to `main`. See the [weekly tasks template](https://clinic.ds.uchicago.edu/templates/weekly-tasks.html).
+  - type: input
+    id: week
+    attributes:
+      label: Week
+      placeholder: "3"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: One or two sentences on why these tasks matter for the project.
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks and acceptance criteria
+      description: One heading per task. Every criterion must be specific and checkable by someone else on the team.
+      value: |
+        #### Task 1: <short description>
+        - [ ] <specific, checkable outcome>
+        - [ ] Code is pushed in a pull request
+        - [ ] Pull request is reviewed and merged to `main`
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Notes / resources
+      description: Links to data, papers, prior issues or PRs.
+  - type: markdown
+    attributes:
+      value: |
+        **Weekly report:** by midnight the day before the next mentor session, post a comment on this issue with the status of each criterion and links to your PRs. See the [weekly report template](https://clinic.ds.uchicago.edu/templates/weekly-report.html).
