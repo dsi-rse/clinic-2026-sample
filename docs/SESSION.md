@@ -25,7 +25,7 @@ Check that your sync-test file shows up in the Box web app. If `make check-data`
    - share of requests still open, by community area
    - requests per month for one service type
 2. Each person opens their own issue: **Issues → New issue → Weekly tasks**. Title `Week 3 tasks – <name>`.
-3. `git switch -c <login>/<task>`, make the change (Claude Code is fine), push, open a PR linked to your issue.
+3. `git switch -c <login>/<task>`, no `[student:…]` tag needed (you're playing yourself; tags are only for the seeded students), make the change (Claude Code is fine), push, open a PR linked to your issue.
 4. On github.com, post your weekly report as a comment on your issue.
 5. One person per table under-delivers on purpose: claim `complete` without a PR, or leave the criteria vague.
 
@@ -34,7 +34,7 @@ In `~/clinic/clinic-2026-sample`, start `claude` and run:
 ```
 /clinic-project-review
 ```
-Intake answers: review window = last 7 days · roster = your two tablemates plus the seeded students A, B, C (GitHub logins in the README) · 10 hours/week · history = 1 week · report path `~/clinic/review-<you>.md`.
+Intake answers: review window = last 7 days · roster = your two tablemates plus the seeded students A, B, C (read from `[student:…]` tags; the skill switches to training mode for `clinic-YYYY-sample` repos) · 10 hours/week · history = 1 week · report path `~/clinic/review-<you>.md` · run the code? **No, read-only** (running it adds 15–30 min; try it after the session).
 
 Read the per-student checks, especially whether each report matches the PRs and commits, then the task menu. Those are tasks you would **tell** students next week; they open the issues.
 
